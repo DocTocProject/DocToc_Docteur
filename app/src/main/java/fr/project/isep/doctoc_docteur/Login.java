@@ -16,6 +16,6 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.login);
     }
     public void OnClickLog (View v) {
-        startActivity(new Intent(this, Visites.class));
+        startActivity(new Intent(this, Visitess.class));
     }
 }
