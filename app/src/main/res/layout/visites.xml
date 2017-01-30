@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonR"
+        android:layout_alignStart="@+id/buttonR"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/bleu"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_weight="0.09"
+        android:text="Récapitulatif de vos dernières consultations "
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <Button
+        android:text="Date / Nom du Patient"
+        android:textColor="@color/bleu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:text="Date / Nom du Patient"
+        android:textColor="@color/bleu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:text="Date / Nom du Patient"
+        android:textColor="@color/bleu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Prêt à travailler maintenant"
+        android:textColor="@color/blanc"
+        android:background="@color/bleu"
+        android:textAlignment="center"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/work"
+        android:onClick="OnClickWork"/>
+
+
+</LinearLayout>
+
+</ScrollView>

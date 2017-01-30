@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/blanc">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonR"
+        android:layout_alignStart="@+id/buttonR"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/bleu"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_weight="0.00"
+        android:text="En attente d'un patient "
+        android:layout_marginBottom="40dp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="287dp"
+        android:layout_height="296dp"
+        android:src="@drawable/loading1"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</LinearLayout>
