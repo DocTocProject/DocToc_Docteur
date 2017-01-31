@@ -33,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:onClick="OnClickView"
         android:layout_marginBottom="10dp"/>
 
     <Button
@@ -42,7 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:onClick="OnClickView"/>
 
     <Button
         android:text="Date / Nom du Patient"
@@ -51,7 +53,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:onClick="OnClickView"/>
 
 
 
