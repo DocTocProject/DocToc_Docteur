@@ -19,7 +19,7 @@ public class Visitess extends AppCompatActivity {
         setContentView(R.layout.visites);
     }
     public void OnClickWork (View v) {
-        startActivity(new Intent(this, Prescription.class));
+        startActivity(new Intent(this, Attente.class));
     }
 
     public void OnClickView(View v) {
